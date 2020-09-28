@@ -1,0 +1,269 @@
+@media  (max-width: 1200px){
+    header .col-lg-6 div span{
+        font-size: 50px;
+    }
+    main .col-lg-7{
+        overflow: hidden;
+    }
+    main .col-lg-7 video{
+        width: 342px;
+        right: 107px;
+        height: 220px;
+        top: 20px;
+    }
+    main .col-lg-7 img,video{
+        transform: scale(1.2) translateY(15%);
+    }
+    main .row:nth-of-type(3) .col-lg-7 img{
+        transform: none;
+    }
+    .owl-card img{
+        height: 220px;
+    }
+    .kontakt p{
+        font-size: 16px;
+    }
+}
+@media  (max-width: 992px){
+    header .col-lg-6 div span{
+        font-size: 28px;
+    }
+    header .col-lg-6{
+        align-items: flex-start;
+    }
+    header .col-lg-6  p{
+        font-size: 16px;
+    }
+    header .col-lg-6  a{
+        margin-top: 20px;
+    }
+    main .row:nth-of-type(1){
+        margin-bottom: 0;
+    }
+    main .row:nth-of-type(1) a{
+        margin-top: 20px;
+       margin-bottom: 60px;
+    }
+    main .col-lg-7 img{
+        transform: none;
+    }
+    main .col-lg-7 video{
+        width: 370px;
+        left: 178px;
+        height: 230px;
+        top: 0;
+    }
+    .owl-card img{
+        height: 150px;
+    }
+    .owl-card h4{
+        font-size: 20px;
+    }
+    .owl-card h5{
+        font-size: 16px;
+    }
+    .previous, .next{
+        top: 27%;
+    }
+    .owl-stage{
+        padding: 5% 0 10% 0;
+    }
+    main .col-lg-7,.col-lg-6,.col-lg-5{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-reg .col-lg-6{
+        align-items: stretch;
+    }
+    main .row:nth-of-type(3) .col-lg-7 img{
+        width: 70%;
+    }
+    main .second {
+        margin-bottom: 20px;
+    }
+    main .second .col-lg-6 img{
+        width: 270px;
+    }
+    .contact-page{
+        padding-bottom: 600px;
+    }
+    .form-reg{
+        transform: translateX(-50%) translateY(-75%);
+    }
+
+}
+@media  (max-width: 768px){
+    .navbar-toggler{
+        outline: none!important;
+        box-shadow: none;
+        width: 50px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-toggler:hover{
+        background-color: transparent;
+        box-shadow: none;
+        border: 1px solid #fff;
+    }
+    nav .nav-item{
+        margin: 0;
+    }
+    nav .nav-link{
+        text-align: center;
+    }
+    header .col-lg-6 div span{
+        font-size: 24px;
+    }
+    header .col-lg-6 p{
+        font-size: 14px;
+        margin: 0;
+    }
+    main .col-lg-7 video{
+        width: 272px;
+        left: 135px;
+        height: 178px;
+        top: -6px;
+    }
+    .portfolio figure.snip1104{
+        width: 250px;
+        height: 300px;
+    }
+    .owl-stage{
+        padding: 10% 0;
+    }
+    .owl-card img{
+        height: 220px;
+    }
+    .owl-card h4{
+        font-size: 26px;
+    }
+    .owl-card h5{
+        font-size: 20px;
+    }
+    .ariza form{
+        flex-direction: column;
+    }
+    .ariza .form-control{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ariza form button{
+        margin-left: auto;
+        width:25%;
+    }
+    footer .d-flex{
+        flex-direction: column;
+    }
+    .form-reg{
+        transform: translateX(-50%) translateY(-60%);
+    }
+    .contact-footer{
+        padding-top: 150px;
+    }
+}
+@media  (max-width: 576px){
+    header .row{
+        flex-direction: column-reverse;
+    }
+    header .row .col-sm-6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header .row .col-sm-6 p{
+        text-align: center;
+    }
+    header .row img{
+        width: 50%;
+    }
+    main .col-lg-7 video{
+        width: 50.5%;
+        left: 25%;
+        height: 67%;
+        top: -1%;
+    }
+    .icons a img{
+        height: 20px;
+    }
+    footer .d-flex a{
+        font-size: 14px;
+    }
+    footer .d-flex p{
+        font-size: 12px;
+    }
+}
+@media  (max-width: 480px){
+    .owl-stage{
+        padding: 20% 0;
+    }
+    .owl-card img{
+        height: 160px;
+        margin-bottom: 10px;
+    }
+    .owl-card h4{
+        font-size: 20px;
+    }
+    .owl-card h5{
+        font-size: 14px;
+    }
+    .ariza{
+        transform: translateY(10%);
+    }
+    .ariza h4{
+        font-size: 14px;
+    }
+    .ariza form{
+        padding: 10px 20px;
+    }
+    .ariza .form-control{
+        margin-bottom: 10px;
+    }
+    .ariza form button{
+        font-size: 12px;
+    }
+    footer .container-fluid{
+        padding: 30px 30px 30px 30px;
+    }
+    .portfolio .card{
+        border: none;
+        width: 160px;
+        margin-bottom: 65px;
+    }
+    .portfolio .card .frame{
+        width: 70%;
+    }
+    .form-reg .col-lg-6:nth-of-type(1) h3{
+        font-size: 24px;
+    }
+    .form-reg .col-lg-6:nth-of-type(2) h3{
+        font-size: 24px;
+    }
+    .form-reg .col-lg-6:nth-of-type(2) p{
+        font-size: 12px;
+    }
+    .form-reg .col-lg-6 .d-flex{
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .form-reg .form-control{
+        margin-bottom: 10px!important;
+    }
+    .form-reg{
+        transform: translateX(-50%) translateY(-80%);
+    }
+    .form-reg .icons{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .contact-footer .icons{
+        display: none;
+    }
+    .contact-footer{
+        padding-top: 100px;
+    }
+}
